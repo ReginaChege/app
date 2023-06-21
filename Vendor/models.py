@@ -7,6 +7,6 @@ class Vendor(models.Model):
     age=models.PositiveIntegerField()
     gender=models.CharField(max_length=32)
 
-    def __str__(self):
-        return(str)
+    # def __str__(self):
+    #     return(str)
     
